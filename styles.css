@@ -311,12 +311,6 @@ header .icon-btn {
   line-height: 1;
 }
 
-.bn-item.active .bn-link,
-.bn-item.active .bn-link,
-.bn-item.active .bn-label {
-  color: #2563eb;
-}
-
 /* CSS-only active state using aria-current on the anchor */
 .bn-link[aria-current="page"],
 .bn-link[aria-current="page"] ~ .bn-label {
@@ -337,3 +331,148 @@ header .icon-btn {
   .bn-link { padding: 10px; }
 }
 
+/* ACCOUNT PAGE STYLES */
+.account-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 18px 120px;
+}
+.account-banner {
+  height: 120px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  margin: 18px 0 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner-inner {
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/ảnh\ bìa\ tài\ khoản.avif');
+  background-size: cover;
+  background-position: center;
+  filter: blur(0px) saturate(0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner-time {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 5;
+}
+.banner-icons {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+  color: white;
+  z-index: 5;
+}
+.banner-icons .material-icons {
+  font-size: 16px;
+}
+.account-profile {
+  text-align: center;
+  margin-top: -60px; /* pull avatar over banner */
+  position: relative;
+  z-index: 10;
+  padding-top: 16px;
+}
+.avatar-wrapper { display:flex; justify-content:center; }
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(180deg,#111827,#374151);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border: 5px solid #fff;
+  box-shadow: 0 12px 28px rgba(2,6,23,0.18);
+}
+.profile-name { margin-top: 8px; font-weight:700; font-size:16px; }
+.profile-name .edit-icon { font-size:16px; vertical-align:middle; margin-left:6px; color:#6b7280; }
+.profile-meta { color:#6b7280; font-size:13px; margin-top:4px; }
+
+.account-list { margin-top: 18px; }
+.section-heading { color:#6b7280; font-weight:600; margin:18px 6px 8px; }
+.list-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.04);
+  margin: 8px 0;
+}
+.list-left { width:48px; display:flex; align-items:center; justify-content:center; }
+.list-icon {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:25px; height:25px; border-radius:10px; color:white; font-size:18px;
+}
+.list-body { flex:1; }
+.list-title { font-weight:600; }
+.list-sub { font-size:13px; color:#6b7280; margin-top:2px; }
+.list-right { width:28px; color:#9ca3af; }
+.logout-row { text-align:center; margin-top:18px; }
+.logout { color:#2563eb; text-decoration:none; font-weight:600; }
+.version { color:#9ca3af; font-size:12px; margin-top:6px; }
+
+@media (max-width:700px) {
+  .product-grid { grid-template-columns: repeat(2,1fr); }
+  .account-banner { height:100px; }
+  .avatar { width:72px; height:72px; }
+}
+
+/* SEARCH STYLE */
+.search-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 18px 120px;
+}
+.search-banner {
+  height: 120px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  margin: 18px 0 6px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.search-time {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 5;
+}
+.search-icons {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+  color: black;
+  z-index: 5;
+}
+.search-icons .material-icons {
+  font-size: 16px;
+}

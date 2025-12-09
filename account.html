@@ -3,47 +3,102 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<title>Mall - Web Mall UI</title>
+		<title>Mall - Tài khoản</title>
 		<link rel="stylesheet" href="styles.css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
-    <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<body>
+		<main class="account-page">
+			<header class="account-banner">
+				<div class="banner-time">9:41</div>
+				<div class="banner-inner"></div>
+				<div class="banner-icons">
+					<span class="material-icons">signal_cellular_alt</span>
+					<span class="material-icons">wifi</span>
+					<span class="material-icons">battery_full</span>
+				</div>
+			</header>
+			<section class="account-profile">
+				<div class="avatar-wrapper">
+					<div class="avatar">N/A</div>
+				</div>
+				<div class="profile-name">Nguyễn Minh An <span class="edit-icon material-icons" title="Chỉnh sửa">edit</span></div>
+				<div class="profile-meta">minhan@gmail.com | 0914 224 332</div>
+			</section>
+			<section class="account-list">
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#eef2ff;color:#2563eb;">location_city</span></div>
+					<div class="list-body">
+						<div class="list-title">Block B - B6CH1</div>
+						<div class="list-sub">Sunshine Legend City</div>
+					</div>
+					<div class="list-right"><span class="material-icons">expand_more</span></div>
+				</div>
+				<div class="section-heading">Đơn hàng</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#fff7ed;color:#f97316;">inventory_2</span></div>
+					<div class="list-body"><div class="list-title">Theo dõi đơn hàng</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="section-heading">Cài đặt và bảo mật</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#ecfdf5;color:#059669;">home</span></div>
+					<div class="list-body"><div class="list-title">Quản lý nhà</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#fff0f6;color:#db2777;">devices</span></div>
+					<div class="list-body"><div class="list-title">Quản lý thiết bị trong căn hộ</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#f0f9ff;color:#0369a1;">security</span></div>
+					<div class="list-body"><div class="list-title">Tài khoản và bảo mật</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#f8fafc;color:#7c3aed;">notifications</span></div>
+					<div class="list-body"><div class="list-title">Cài đặt thông báo</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="section-heading">Hỗ trợ</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#ecfccb;color:#65a30d;">menu_book</span></div>
+					<div class="list-body"><div class="list-title">Hướng dẫn sử dụng</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="list-card">
+					<div class="list-left"><span class="list-icon material-icons" style="background:#eef2ff;color:#2563eb;">support_agent</span></div>
+					<div class="list-body"><div class="list-title">Trung tâm hỗ trợ kỹ thuật</div></div>
+					<div class="list-right"><span class="material-icons">chevron_right</span></div>
+				</div>
+				<div class="logout-row">
+					<a class="logout" href="">Đăng xuất</a>
+					<div class="version">Phiên bản: 1.000.000</div>
+				</div>
+			</section>
+		</main>
 		<nav class="bottom-nav" role="navigation">
 			<div class="bn-item" data-name="home">
 				<a class="bn-link" href="mall.html"><span class="material-icons">home</span></a>
 				<div class="bn-label">Home</div>
 			</div>
 			<div class="bn-item" data-name="product">
-				<a class="bn-link" href="product.html"><span class="material-icons">store</span></a>0
+				<a class="bn-link" href="product.html"><span class="material-icons">store</span></a>
 				<div class="bn-label">Sản phẩm</div>
 			</div>
-			<div class="bn-item" data-name="mall">
-				<a class="bn-link" href="mall.html" aria-current="page"><span class="material-icons">shopping_bag</span></a>
-				<div class="bn-label">Mall</div>
-			</div>
-			<div class="bn-item" data-name="notification">
-				<a class="bn-link" href="notification.html"><span class="material-icons">notifications</span></a>
-				<div class="bn-label">Thông báo</div>
-			</div>
-			<div class="bn-item" data-name="account">
-				<a class="bn-link" href="account.html"><span class="material-icons">account_circle</span></a>
-				<div class="bn-label">Tài khoản</div>
+		<div class="bn-item" data-name="mall">
+			<a class="bn-link" href="mall.html"><span class="material-icons">shopping_bag</span></a>
+			<div class="bn-label">Mall</div>
+		</div>
+		<div class="bn-item" data-name="notification">
+			<a class="bn-link" href="notification.html"><span class="material-icons">notifications</span></a>
+			<div class="bn-label">Thông báo</div>
+		</div>
+		<div class="bn-item" data-name="account">
+			<a class="bn-link" href="account.html" aria-current="page"><span class="material-icons">account_circle</span></a>
+			<div class="bn-label">Tài khoản</div>
 			</div>
 		</nav>
-    </body>
+	</body>
+</html>
