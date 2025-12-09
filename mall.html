@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Mall - Web Mall UI</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<header class="topbar">
+			<div class="topbar-inner" style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+				<div class="logo">Mall</div>
+				<div>
+					<button class="icon-btn" aria-label="search"><span class="material-icons">search</span></button>
+					<button class="icon-btn" aria-label="cart"><span class="material-icons">shopping_cart</span></button>
+				</div>
+			</div>
+		</header>
+		<main class="container">
+			<section class="hero-cards">
+				<div class="card-row">
+					<div class="card">
+						<div class="text">
+						<h3>Rèm Thông Minh</h3>
+						<p>Thiết kế chắc chắn & bền bỉ: Toàn bộ sản phẩm bên ngoài được làm bằng nhôm cao cấp, khả năng chịu lực va chạm mạnh, chịu nhiệt và chống ăn mòn cùng với kích thước nhỏ gọn nên phù hợp với nhiều loại hình không gian khác...</p>
+						<a class="learn" href="">Tìm hiểu →</a>
+						</div>
+						<img src="assets/rèm thông minh.avif" alt="Rèm Thông Minh">
+					</div>
+					<div class="card">
+						<div class="text">
+						<h3>Đèn Thông Minh</h3>
+						<p>Hệ thống chiếu sáng thông minh với khả năng điều chỉnh màu sắc, độ sáng và lập lịch tự động. Tiết kiệm năng lượng và tạo không gian sống hiện đại.</p>
+						<a class="learn" href="">Tìm hiểu →</a>
+						</div>
+						<img src="assets/đèn thông minh.avif" alt="Đèn Thông Minh">
+					</div>
+					</div>
+			</section>
+
+			<section class="featured">
+				<h4>Sản Phẩm Nổi Bật</h4>
+				<div id="featured-row" class="featured-row">
+					<div class="feat-card">
+						<div class="feat-media">
+							<img src="assets/đèn thông minh.avif" alt="Đèn Spotlight" />
+							<button class="add-btn" type="button" title="Add product">+</button>
+						</div>
+						<div class="feat-title">Đèn Spotlight</div>
+						<div class="feat-sub">Led Spotlight</div>
+					</div>
+					<div class="feat-card">
+						<div class="feat-media">
+							<img src="assets/LED Driver.avif" alt="LED Driver 8 Kênh" />
+							<button class="add-btn" type="button" title="Add product">+</button>
+						</div>
+						<div class="feat-title">LED Driver 8 Kênh</div>
+						<div class="feat-sub">LED Driver 8 Channels</div>
+					</div>
+					<div class="feat-card">
+						<div class="feat-media">
+							<img src="assets/Quản lý dòng hồ nước.avif" alt="Quản Lí Dòng Hồ Nước" />
+							<button class="add-btn" type="button" title="Add product">+</button>
+						</div>
+						<div class="feat-title">Quản Lí Dòng Hồ Nước</div>
+						<div class="feat-sub">IoT Water Meter</div>
+					</div>
+				</div>
+			</section>
+			<section class="catalog">
+				<h4>Sản Phẩm Sliving</h4>
+				<div id="category-tabs" class="tabs">
+					<button class="tab active">Công tắc</button>
+					<button class="tab">Bộ điều khiển LED</button>
+					<button class="tab">Ổ cắm</button>
+					<button class="tab">Cảm biến</button>
+				</div>
+				<div id="product-grid" class="product-grid">
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/công tắc.avif" alt="Công Tắc Cơ" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Công Tắc Cơ</div>
+							<div class="product-sub">Smart Mechanical Switch</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/công tắc.avif" alt="Công Tắc Cảm Ứng" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Công Tắc Cảm Ứng</div>
+							<div class="product-sub">Touch Switch</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/công tắc.avif" alt="Công Tắc Thông Minh Pro" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Công Tắc Thông Minh Pro</div>
+							<div class="product-sub">Smart Switch Pro</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/LED Driver.avif" alt="Bộ Điều Chỉnh Độ Sáng" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Bộ Điều Chỉnh Độ Sáng</div>
+							<div class="product-sub">Light Dimmer</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/rèm thông minh.avif" alt="Ổ Cắm Thông Minh" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Ổ Cắm Thông Minh</div>
+							<div class="product-sub">Smart Outlet</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/cảm biến chuyển động.avif" alt="Cảm Biến Chuyển Động" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Cảm Biến Chuyển Động</div>
+							<div class="product-sub">Motion Sensor</div>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-media">
+							<img src="assets/cảm biến nhiệt độ.avif" alt="Cảm Biến Nhiệt Độ" />
+							<button class="add-btn" type ="button" title="Add product">+</button>
+						</div>
+						<div class="product-info">
+							<div class="product-title">Cảm Biến Nhiệt Độ</div>
+							<div class="product-sub">Temperature Sensor</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<nav class="bottom-nav" role="navigation">
+			<div class="bn-item" data-name="home">
+				<a class="bn-link" href="mall.html"><span class="material-icons">home</span></a>
+				<div class="bn-label">Home</div>
+			</div>
+			<div class="bn-item" data-name="product">
+				<a class="bn-link" href="product.html"><span class="material-icons">store</span></a>0
+				<div class="bn-label">Sản phẩm</div>
+			</div>
+			<div class="bn-item" data-name="mall">
+				<a class="bn-link" href="mall.html" aria-current="page"><span class="material-icons">shopping_bag</span></a>
+				<div class="bn-label">Mall</div>
+			</div>
+			<div class="bn-item" data-name="notification">
+				<a class="bn-link" href="notification.html"><span class="material-icons">notifications</span></a>
+				<div class="bn-label">Thông báo</div>
+			</div>
+			<div class="bn-item" data-name="account">
+				<a class="bn-link" href="account.html"><span class="material-icons">account_circle</span></a>
+				<div class="bn-label">Tài khoản</div>
+			</div>
+		</nav>
+	</body>
+</html>
