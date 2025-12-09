@@ -1,4 +1,4 @@
-/* STYLES */
+/* MALL PAGE STYLES */
 * {
   box-sizing: border-box;
 }
@@ -143,8 +143,8 @@ header .icon-btn {
   position: absolute;
   right: 8px;
   bottom: 8px;
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   background: #2563eb;
   border-radius: 50%;
   display: inline-flex;
@@ -154,7 +154,7 @@ header .icon-btn {
   border: 2px solid #fff;
   cursor: pointer;
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.2);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -336,3 +336,4 @@ header .icon-btn {
 @media (max-width: 700px) {
   .bn-link { padding: 10px; }
 }
+
