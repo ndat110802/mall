@@ -230,7 +230,7 @@ body:has(.topbar) {
 }
 
 .tab {
-  background: #f5f7fa;
+  background: #eef2f6;
   padding: 8px 14px;
   border-radius: 999px;
   cursor: pointer;
